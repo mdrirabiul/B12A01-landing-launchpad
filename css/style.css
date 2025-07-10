@@ -35,11 +35,17 @@ body{
     padding: 15px 36px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
+}
+.btn-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* header styles */
 .header {
-    
+    max-height: 700px;
 }
 .header nav {
     display: flex;
@@ -52,10 +58,24 @@ body{
 .logo {
     font-size: 34px;
     font-weight: 800;
+    cursor: pointer;
+}
+.logo a {
+    text-decoration: none;
 }
 nav ul li {
     list-style: none;
 }
 nav ul li a {
     text-decoration: none;
+}
+
+/* banner styles */
+.banner {
+    width: 80%;
+    margin: 0 auto;
+}
+.banner-title {
+    font-size: 64px;
+    text-align: center;
 }
