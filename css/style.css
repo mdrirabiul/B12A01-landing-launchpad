@@ -1,0 +1,61 @@
+/* ROOT CSS */
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* body styles */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../Assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: ;
+}
+
+/* Shared Styles */
+.primary-color {
+    color: #8547FF;
+}
+.btn-primary {
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 15px 36px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* header styles */
+.header {
+    
+}
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0px; 
+    align-items: center;
+}
+.logo {
+    font-size: 34px;
+    font-weight: 800;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+}
