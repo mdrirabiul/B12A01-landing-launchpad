@@ -18,7 +18,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: ;
+    background-color: #F5F8FF;
 }
 
 /* Shared Styles */
@@ -133,4 +133,41 @@ nav ul li a {
 }
 .p-rate {
     text-align: center;
+}
+
+/* Reviews Section Styles */
+.reviews {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 50px;
+}
+.review-card {
+    padding: 24px;
+    border-radius: 14px;
+    background-color: #FFFFFF;
+    border: 1px solid #F2EDED;
+}
+.reviewer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+}
+.review-card .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0 0 0;
+}
+.card-subtitle {
+    font-size: 16px;
+    font-weight: 300;
+}
+.reviewr-image img {
+    border-radius: 100%;
+}
+.reviewer-details h4,
+.reviewer-details p {
+    margin: 0;
+    padding-top: 5px;
 }
