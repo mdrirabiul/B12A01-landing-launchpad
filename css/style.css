@@ -271,3 +271,28 @@ nav ul li a {
 .focus-section img {
     border-radius: 48px;
 }
+
+/* Footer Section Styles */
+.footer-section {
+    padding: 120px 0;
+    background-color: #FFFFFF;
+}
+.footer-logo {
+    font-size: 100px;
+    margin: 0;
+}
+.footer-links ul{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.footer-links ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+.footer-links ul li a {
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 16px;
+}
